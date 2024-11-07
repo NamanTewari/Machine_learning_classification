@@ -1,0 +1,11 @@
+Khan's Algorithm
+ 
+1) Requirement - queue , indegree array ( Number of incoming edges to a node)
+
+2)	Algorithm - 
+
+1) Insert all the nodes with indegree ==  0 into queue data structure
+2)traverse into queue and to the neighbour and subtract 1 from the indegree array
+3) If the indegree of any node is 0 then put it into queue 
+
+Note - if indegree of any node is == 0 it means that we can put into our answer array 
